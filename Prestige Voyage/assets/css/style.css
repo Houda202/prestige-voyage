@@ -1,0 +1,562 @@
+﻿
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+
+/*=======================================
+    GENERAL STYLES
+==================================================*/
+
+
+body {
+    font-family:'Garamond', serif;
+    font-size:16px;
+   
+}
+
+body {
+    background-color: #77eeee4f; /* Couleur d'arrière-plan de votre choix */
+    margin: 0; /* Supprime les marges par défaut du corps */
+    padding: 0; /* Supprime le rembourrage par défaut du corps */
+}
+
+h1, h2, h3, h5, h6 {
+    font-family: 'Script MT Bold';
+}
+
+
+
+
+.text-center {
+    text-align:center;
+    color:#ffffff;
+
+}
+
+h2 {
+    line-height:50px;
+    color:#181369;
+}
+h3 {
+    line-height:30px;
+    padding-bottom:20px;
+}
+h4 {
+   padding-top: 25px;
+    line-height: 25px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align:center;
+    color:#0a0879;
+    font-family: 'Satisfy', cursive;
+    box-shadow: 2px 2px 5px rgba(88, 86, 86, 0.195); /* Ombre portée de 2 pixels horizontalement et verticalement, avec un flou de 5 pixels, couleur noire, transparence 50% */
+    padding: 10px; /* Ajouter un espace autour du texte */
+    border: 2px solid #dbd5d50e; /* Bordure solide de 2 pixels de couleur noire */
+    
+    
+    background-color: transparent; /* Couleur de fond */
+    
+    
+  
+
+}
+h44 {
+    padding-top: 30px;
+     line-height: 40px;
+     padding-bottom: 10px;
+     font-size: 27px;
+     font-weight: 600;
+     text-align:center;
+     color:#912e06;
+     font-family: 'Satisfy', cursive;
+   
+ }
+ .text-with-image img {
+    position: relative;
+    top: 50%;  
+    border-radius:unset;
+    width: 370px; /* Adjust the size as needed */
+    height: 300px; /* Adjust the size as needed */
+}
+
+.sub-text {
+    font-size: 70px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    
+    margin-right: 100px; 
+}
+.sub-text {
+    font-size: 40px;
+    font-style: italic;
+    margin-right: 100px;
+}
+
+
+p {
+    font-weight:100;
+    line-height:25px;
+    padding-bottom:0px;
+    font-family:'Open Sans', sans-serif;
+    color:#565151;
+    text-align:center;
+    
+}
+
+
+.space-free {
+    height:100px;
+}
+
+section {
+    padding-top:50px;
+    margin-top:50px;
+}
+.g-pad-bottom {
+    padding-bottom:30px;
+}
+
+.form-control {
+        background-color: rgba(222, 42, 42, 0);
+}
+
+.label-danger {
+font-size: 14px; /* à partir de... */
+cursor: pointer;
+transition:color 0.3s, transform 0.3s;
+display: inline-block;
+}
+.label-danger:hover {
+    color: rgb(51, 0, 255);
+
+}
+/*=======================================
+    HOME SECTION STYLES
+==================================================*/
+
+
+.go-marg {
+    margin-top:40px;
+}
+
+#home-sec { 
+  
+    
+background: url(../img/1.jpg) no-repeat 10% 10%;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+display: block;
+height: auto;
+padding-top:190px;
+min-height:650px;
+color:#ffffff;
+}
+
+.head-main {
+    font-size:70px ;
+    font-weight:90;
+    border:5px outset  #8fbbf5;
+    padding:15px;
+    text-transform:uppercase;
+    cursor: pointer;
+    transition:color 0.3s, transform 0.3s;
+    color: #396bea;
+    display: inline-block;
+    
+}
+.head-main:hover {
+        color: rgb(255, 0, 4);
+    
+    }
+
+    
+.navbar-brand {
+        /* Vos styles existants */
+        transition: transform 0.3s ease;
+        color: #00f;
+    }
+    
+.navbar-brand:active {
+        transform: translateY(10px); /* Déplace le logo de 5 pixels vers le bas lorsqu'il est cliqué */
+    }
+        
+
+.head-last {
+    margin-top:20px;
+    font-size:25px ;
+    font-weight:900;
+    font-family: 'Courier New', sans-serif;
+    color:#433d3db5;
+    border: 3px groove   #fffefe;
+   
+    padding:5px 20px 20px 20px;
+    border-radius: 15px;
+    text-align: center;
+    
+       
+}
+
+
+
+/* ===========================================================
+   NAVBAR CHANGES   
+   ============================================================*/
+   .navbar {
+    font-size: 25px;
+}
+
+.navbar-inverse {
+    background: #fff;
+    min-height: 60px;
+    padding-top: 5px;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    background: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #1426e4;
+    font-weight: bolder;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-inverse :hover .navbar-brand:hover {
+    color: #f50b23f7;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #1426e4;
+}
+
+.navbar-inverse {
+    border-color: #D6D6D6;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #000;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #f50b23f7;
+}
+
+.navbar-toggle {
+    background-color: black;
+}
+
+.hero-image {
+    position: relative;
+    background: url('Prestige Voyage/assets/img/1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservation-bar {
+    background-color: rgba(177, 215, 240, 0.958);
+    padding: 50px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    max-width: 2000px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+}
+
+.reservation-logo {
+    max-width: 160px; /* Adjust as needed */
+    height: auto;
+    border-radius: 40%; /* This makes the image circular if it's a square, otherwise it will be oval */
+    border: 3px solid #ccc; /* Optional: Add a border around the image */
+}
+
+
+.reservation-bar form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.reservation-bar .form-group {
+    flex: 1;
+    min-width: 150px; /* Adjusted to better fit small screens */
+}
+
+.reservation-bar label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.reservation-bar input, .reservation-bar select, .reservation-bar button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.reservation-bar button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    flex: 1 0 auto;
+}
+
+.reservation-bar button:hover {
+    background-color: #45a049;
+}
+
+.video-container {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #77eeee09; /* Arrière-plan noir pour la vidéo */
+   
+}
+
+video {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ajuste la vidéo pour s'adapter au conteneur sans déformation */
+    
+    
+}
+
+
+/*==========================================
+    PORTFOLIO STYLES
+    =====================================================*/
+
+
+.portfolio-items {
+list-style: none;
+padding: 0;
+margin: 0;
+width: 80%; /* Définit la largeur de l'image à 100% de la largeur de son conteneur */
+
+}
+.portfolio-items {
+margin-right:auto;
+margin-left: auto;
+  
+}
+.portfolio-items > li {
+float: left;
+padding: 0;
+margin: 0;
+
+}
+
+.portfolio-items.col-3 > li {
+width: 80%; /* Définit la largeur de l'image à 100% de la largeur de son conteneur */
+height: auto; /* Maintient les proportions de l'image */
+
+}
+
+.portfolio-item .item-main {
+  margin: 0 10px 10px 0;
+  text-align: center;
+  background: #fff;
+  padding: 10px;
+  border:1px solid #E8EAEE;
+ 
+}
+.portfolio-item img {
+  width: 100%;
+ 
+}
+.portfolio-item .portfolio-image {
+  position: relative;
+  
+}
+.portfolio-item h5 {
+  margin: 0;
+  padding: 10px 0 10px 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  background-color: #E91C1C;
+color: #ffffff;
+}
+.portfolio-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: opacity 300ms;
+  -moz-transition: opacity 300ms;
+  -o-transition: opacity 300ms;
+  transition: opacity 300ms;
+}
+.portfolio-item .overlay .preview {
+  position: relative;
+  top: 50%;
+  display: inline-block;
+  margin-top: -20px;
+}
+.portfolio-item:hover .overlay {
+  opacity: 1;
+}
+
+/*=======================================
+    Contact STYLES
+==================================================*/
+/* Styles généraux pour le formulaire */
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour les groupes de formulaires */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Styles pour les champs de saisie */
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Styles pour les champs de texte */
+textarea.form-control {
+    resize: vertical;
+}
+
+/* Styles pour le bouton de soumission */
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Styles pour les placeholders */
+::placeholder {
+    color: #6f7d6c;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #6c757d;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #6c757d;
+}
+
+
+
+.cnt {
+width: 100%;
+min-height: 350px;
+border: 1px solid #e1e1e1;
+}
+/*=======================================
+    FOOTER STYLES
+==================================================*/
+
+
+#footer {
+background-color: #FFFFFF;
+color: #000;
+padding: 20px 50px 20px 50px;
+text-align: right;
+border-top: 1px solid #d6d6d6;
+}
+
+
+/*=======================================
+    MEDIA QUERIES
+    
+    ==================================================*/
+
+@media all and (max-width:640px) and (min-width:381px) {
+    .head-main { 
+        font-size:28px ;
+    }
+}
+@media all and (max-width:381px) and (min-width:200px) {
+    .head-main { 
+        font-size:24px ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
