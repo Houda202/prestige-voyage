@@ -1,0 +1,54 @@
+
+.VirtualBox/
+.anaconda/
+.bash_history
+.conda/
+.condarc
+.continuum/
+.gitconfig
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.lesshst
+.node_repl_history
+.npmrc
+.ssh/
+.vscode/
+# Ignorer les répertoires système Windows
+Application Data/
+Cookies/
+Documents/My Music/
+Documents/My Pictures/
+Documents/My Videos/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+
+# Ignorer les répertoires spécifiques à l'utilisateur
+.VirtualBox/
+.anaconda/
+.conda/
+.continuum/
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.ssh/
+.vscode/
+AppData/
+Contacts/
+Downloads/
+Favorites/
+Links/
+Music/
+OneDrive/
+PycharmProjects/
+Saved Games/
+Searches/
+Videos/
+VirtualBox VMs/
+anaconda3/

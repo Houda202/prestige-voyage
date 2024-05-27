@@ -43,7 +43,35 @@
     <![endif]--></head>
 <body>
      <!-- NAV SECTION -->
+    <!-- Section d'accueil avec nav traduction -->     
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Agence de Voyage</title>
+         <link rel="stylesheet" href="style.css">
+     </head>
+     <body>
+         <div class="navbar">
+             <div class="brand">Prestige Voyage</div>
+             <div class="nav-links">
+                 <a href="#">Accueil</a>
+                 <a href="#">Nos Packs</a>
+                 <a href="#">Galerie</a>
+                 <a href="#">Contactez-nous</a>
+             </div>
+             <div class="language-dropdown">
+                <select id="language-select">
+                  <option value="fr">FR</option>
+                  <option value="en">EN</option>
+                </select>
+         </div>
          
+     
+         <script src="script.js"></script>
+     </body>
+   
      
     <!-- Section d'accueil avec image et barre de réservation -->
     <head>
@@ -52,6 +80,10 @@
         <title>Reservation Bar with Logo</title>
         <link rel="stylesheet" href="styles.css">
     </head>
+        <!-- NAV TRADUCTION -->
+
+
+        
     <body>
         <div class="navbar navbar-inverse navbar-fixed-top">
             <!-- Your existing navbar code -->
@@ -59,7 +91,7 @@
         
         <div class="hero-image">
             <div class="reservation-bar">
-                <img src="C:\inetpub\wwwroot\agence_de_voyage\Prestige Voyage\assets\img\LOGO.png" alt="Logo" class="reservation-logo">
+                <img src="assets\img\LOGO.png" alt="Logo" class="reservation-logo">
                 <form>
                     <div class="form-group">
                         <label for="destination">Destination</label>
@@ -121,30 +153,19 @@
 
 
     <div id="home-sec">
-     <div class="container"  >
-        <div class="row text-center">
-            <div  class="col-md-12" >
-                <body>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <video id="myVideo" autoplay muted controls>
+                        <source src="assets/video/PUB.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la balise vidéo.
+                    </video>
                     <div class="head-main">Voyage Prestige</div>
-                </body>
-            
-
-    </head>
-    <body>
-        <div class="video-container">
-            <video id="myVideo" autoplay muted>
-                <source src="C:\inetpub\wwwroot\agence_de_voyage\Prestige Voyage\assets\video\PUB.mp4" type="video/mp4">
-                Votre navigateur ne supporte pas la balise vidéo.
-            </video>
-        </div>
-    </body>      
-   
-   
-            
+                </div>
             </div>
-        </div>        
+        </div>
     </div>
-         </div>
+    
        
          <!-- Nouvelle section avec le texte "Votre voyage sur-mesure commence ici …" -->
          <section id="intro-section">
@@ -194,7 +215,7 @@
                         </head>
                         <body>
                             <div class="text-with-image">
-                            <img src="C:\inetpub\wwwroot\agence_de_voyage\Prestige Voyage\assets\img\crois.jpeg" alt="croisére" class="panel-body">             
+                            <img src="assets\img\crois.jpeg" alt="croisére" class="panel-body">             
                         </div>
                     </body>  
                         <div class="panel-body">
@@ -212,7 +233,7 @@
                         </head>
                         <body>
                             <div class="text-with-image">
-                            <img src="C:\inetpub\wwwroot\agence_de_voyage\Prestige Voyage\assets\img\disney.jpeg" alt="Disney" class="panel-body">             
+                            <img src="assets\img\disney.jpeg" alt="Disney" class="panel-body">             
                         </div>
                     </body>   
                         <div class="panel-body">
@@ -230,7 +251,7 @@
                         </head>
                         <body>
                             <div class="text-with-image">
-                            <img src="C:\inetpub\wwwroot\agence_de_voyage\Prestige Voyage\assets\img\moon.jpeg" alt="Honeymoon" class="panel-body">             
+                            <img src="assets\img\moon.jpeg" alt="Honeymoon" class="panel-body">             
                         </div>
                     </body>
                         <div class="panel-body">
@@ -276,4 +297,3 @@
     <script src="assets/js/custom.js"></script>
 
 </body>
-</html>
